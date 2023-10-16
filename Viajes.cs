@@ -17,7 +17,7 @@ namespace ALUMNO
         DataTable tabla;
         public Viajes()
         {
-            conector = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=REMISYA.mdb");
+            conector = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Remis.mdb");
             comando = new OleDbCommand();
 
             comando.Connection = conector;
